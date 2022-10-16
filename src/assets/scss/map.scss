@@ -1,0 +1,18 @@
+.map {
+  &__wrapper {
+    max-width: 75vw;
+    max-height: 75vh;
+
+    overflow: auto;
+
+    table {
+      border-collapse: separate;
+
+      td {
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+          rgb(209, 213, 219) 0px 0px 0px 1px inset;
+        padding: 1em;
+      }
+    }
+  }
+}
